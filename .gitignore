@@ -5,9 +5,12 @@
 __pycache__/
 *.pyc
 
-# 鏂囨。
-*.docx默写*.py 
-复习.py 
-实战.py 
-multi-head attention默写*.py 
-positional encoding默写*.py 
+# 文档
+*.docx
+
+# 练习文件
+默写*.py
+复习.py
+实战.py
+multi-head attention默写*.py
+positional encoding默写*.py
