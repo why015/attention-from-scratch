@@ -3,7 +3,7 @@ import torch.nn.functional as F
 import torch.nn as nn
 import math
 
-def scaled_dot_product_attention(Q,K,V,mask):
+def scaled_dot_product_attention(Q,K,V,mask = None):
     d_k = Q.size(-1)
     scores = torch.matmul(Q,K.transpose(-2,-1))
     scores = scores/math.sqrt(d_k)
